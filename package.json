@@ -1,46 +1,47 @@
 {
-	"name": "math-slices",
-	"private": true,
-	"version": "1.0.0",
-	"description": "Scripts for A slice refinement of Bökstedt periodicity",
-	"keywords": [
-		"mathjax",
-		"react",
-		"typescript",
-		"math",
-		"equivariant homotopy",
-		"prismatic cohomology",
-		"slice filtration",
-		"topological Hochschild homology"
-	],
-	"main": "src/index.tsx",
-	"dependencies": {
-		"@liqvid/katex": "^0.1.0",
-		"@liqvid/mathjax": "0.1.2",
-		"@liqvid/utils": "^1.10.0",
-		"@radix-ui/react-tabs": "^1.1.3",
-		"react": "19.0.0",
-		"react-dom": "19.0.0",
-		"react-katex": "^3.0.1",
-		"react-scripts": "5.0.1"
-	},
-	"devDependencies": {
-		"@types/katex": "^0.16.7",
-		"@types/react": "19.0.10",
-		"@types/react-dom": "19.0.4",
-		"@types/react-katex": "^3.0.4",
-		"@vitejs/plugin-react-swc": "^3.8.0",
-		"typescript": "^5.8.2",
-		"vite": "^6.2.1"
-	},
-	"overrides": {
-		"react": "$react",
-		"typescript": "$typescript"
-	},
-	"type": "module",
-	"scripts": {
-		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview"
-	}
+  "name": "math-slices",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Scripts for A slice refinement of Bökstedt periodicity",
+  "keywords": [
+    "mathjax",
+    "react",
+    "typescript",
+    "math",
+    "equivariant homotopy",
+    "prismatic cohomology",
+    "slice filtration",
+    "topological Hochschild homology"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@liqvid/katex": "^0.1.0",
+    "@liqvid/mathjax": "0.1.2",
+    "@liqvid/utils": "^1.10.0",
+    "@radix-ui/react-tabs": "^1.1.3",
+    "@tailwindcss/vite": "^4.0.12",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-katex": "^3.0.1",
+    "tailwindcss": "^4.0.12"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/katex": "^0.16.7",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@types/react-katex": "^3.0.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1"
+  },
+  "overrides": {
+    "react": "$react"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
 }
